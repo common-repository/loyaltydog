@@ -1,0 +1,68 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Welcome to LoyaltyDog</title>
+</head>
+<body>
+<div class="wrap" style="text-align: center; margin: 0 auto; width: 50%;">
+    <img src="assets/img/loyalty-dog-logo-320x132.png" style="text-align: center; margin: 5px auto; width: 320px;" />
+    <h1 style="text-align: center;">Welcome to LoyaltyDog</h1>
+    <img src="https://loyalty.dog/wp-content/uploads/2016/12/Loyalty-400.png" style="width: 40%; padding-left: 5px; float: right;" />
+    <p style="text-align: left;">
+      Thank you for installing LoyaltyDog.
+    </p>
+    <p style="text-align: left;">
+      In order for LoyaltyDog to properly function, you need to insure the following:
+    </p>
+    <ul style="text-align: left;">
+      <li style="text-align: left;">The latest version of Woocommerce is installed and activated, and
+      </li>
+      <li style="text-align: left;">You have an active LoyaltyDog subscription for the WordPress Plugin
+        at the <a href="https://loyalty.dog/ecommerce-support-wordpress-plugin#ordernow" target="_blank" style="text-decoration: none;">add-on
+        or standalong level</a>
+      </li>
+    </ul>
+    <p style="text-align: left; font-weight: bold;">
+      If you have a subscription and have received your API credentials from LoyaltyDog, then go to <a href="/wp-admin/admin.php?page=loyaltydog&tab=settings" style="text-decoration: none;">Settings</a> to enter this information.
+    </p>
+    <p style="text-align: left; font-weight: bold;">
+      If you do not yet have a LoyaltyDog subscription for WordPress, please go to LoyaltyDog and
+      purchase the <a href="https://loyalty.dog/ecommerce-support-wordpress-plugin#ordernow" target="_blank" style="text-decoration: none;">add-on
+      or standalong level</a>
+    </p>
+    <p style="text-align: left; font-weight: bold;">
+      For any questions or general support, please visit our <a href="http://support.loyalty.dog" target="_blank" style="text-decoration: none;">support website</a>.
+    </p>
+</div>
+
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script>
+    function updateHeight() {
+        parent.postMessage(JSON.stringify({
+            id: location.hash,
+            action: 'updateHeight',
+            height: jQuery("html").height()
+        }), '*');
+    }
+
+    var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+    var eventer = window[eventMethod];
+    var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+
+    eventer(messageEvent, function (e) {
+        if (!e.data) return;
+        if (e.data == 'getHeight') {
+            updateHeight();
+        }
+    }, false);
+
+    jQuery(function () {
+        updateHeight();
+        jQuery(window).on("resize", updateHeight);
+    });
+</script>
+</body>
+</html>

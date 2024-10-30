@@ -1,0 +1,337 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: LoyaltyDog\n"
+"POT-Creation-Date: 2017-03-06 20:28+0700\n"
+"PO-Revision-Date: 2017-01-05 16:06+0700\n"
+"Last-Translator: kodeplusdev <kodeplusdev@gmail.com>\n"
+"Language-Team: kodeplusdev <kodeplusdev@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: loyaltydog.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/class-loyaltydog-actions.php:97
+msgid "Points earned for account signup"
+msgstr ""
+
+#: includes/class-loyaltydog-actions.php:98
+msgid ""
+"Enter the amount of points earned when a customer signs up for an account."
+msgstr ""
+
+#: includes/class-loyaltydog-actions.php:103
+msgid "Points earned for writing a review"
+msgstr ""
+
+#: includes/class-loyaltydog-actions.php:104
+msgid ""
+"Enter the amount of points earned when a customer first reviews a product."
+msgstr ""
+
+#: includes/class-loyaltydog-admin.php:33
+msgid "News"
+msgstr ""
+
+#: includes/class-loyaltydog-admin.php:34
+msgid "Documentation"
+msgstr ""
+
+#: includes/class-loyaltydog-admin.php:35
+msgid "Manage"
+msgstr ""
+
+#: includes/class-loyaltydog-admin.php:36 includes/class-loyaltydog.php:125
+msgid "Settings"
+msgstr ""
+
+#: includes/class-loyaltydog-admin.php:75
+#, php-format
+msgid ""
+"<strong>LoyaltyDog</strong> is almost ready. To get started, %sset your "
+"LoyaltyDog account keys%s."
+msgstr ""
+
+#: includes/class-loyaltydog-admin.php:93
+msgid "WooCommerce"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: includes/class-loyaltydog-admin.php:108
+#: includes/class-loyaltydog-admin.php:109
+#: includes/class-loyaltydog-welcome.php:51
+#: includes/class-loyaltydog-welcome.php:52
+#: includes/views/html-missing-dependencies.php:24
+msgid "LoyaltyDog"
+msgstr ""
+
+#: includes/class-loyaltydog-admin.php:125
+#, php-format
+msgid ""
+"<strong>LoyaltyDog</strong> requires coupons to be %senabled%s in order to "
+"function properly and allow customers to redeem offer during checkout."
+msgstr ""
+
+#: includes/class-loyaltydog-admin.php:188
+#: includes/class-loyaltydog-admin.php:218
+#: includes/class-loyaltydog-admin.php:241
+#: includes/class-loyaltydog-welcome.php:75
+msgid "Loading..."
+msgstr ""
+
+#: includes/class-loyaltydog-admin.php:207
+msgid "Save Changes"
+msgstr ""
+
+#: includes/class-loyaltydog-admin.php:255
+msgid "Enable the logging of API request."
+msgstr ""
+
+#: includes/class-loyaltydog-admin.php:262
+#, php-format
+msgid "%1$sView Log%2$s"
+msgstr ""
+
+#: includes/class-loyaltydog-admin.php:268
+msgid "LoyaltyDog API"
+msgstr ""
+
+#: includes/class-loyaltydog-admin.php:274
+msgid "API URL"
+msgstr ""
+
+#: includes/class-loyaltydog-admin.php:277
+msgid "Enter with your LoyaltyDog API url."
+msgstr ""
+
+#: includes/class-loyaltydog-admin.php:283
+msgid "Program ID"
+msgstr ""
+
+#: includes/class-loyaltydog-admin.php:286
+msgid "Enter with your program ID."
+msgstr ""
+
+#: includes/class-loyaltydog-admin.php:292
+msgid "API Key"
+msgstr ""
+
+#: includes/class-loyaltydog-admin.php:295
+msgid "Enter with your LoyaltyDog API key."
+msgstr ""
+
+#: includes/class-loyaltydog-admin.php:301
+msgid "Debug Log"
+msgstr ""
+
+#: includes/class-loyaltydog-admin.php:303
+msgid ""
+"This should be checked only if LoyaltyDog support suggests it to be checked."
+msgstr ""
+
+#: includes/class-loyaltydog-admin.php:312
+msgid "Points Conversion"
+msgstr ""
+
+#: includes/class-loyaltydog-admin.php:319
+msgid "Earn Points When Order Status Is"
+msgstr ""
+
+#: includes/class-loyaltydog-admin.php:320
+msgid "Behavior how points are earned and rewards are redeemed."
+msgstr ""
+
+#: includes/class-loyaltydog-admin.php:324
+msgctxt "Order status"
+msgid "Pending Payment"
+msgstr ""
+
+#: includes/class-loyaltydog-admin.php:325
+msgctxt "Order status"
+msgid "Processing"
+msgstr ""
+
+#: includes/class-loyaltydog-admin.php:326
+msgctxt "Order status"
+msgid "On Hold"
+msgstr ""
+
+#: includes/class-loyaltydog-admin.php:327
+msgctxt "Order status"
+msgid "Completed"
+msgstr ""
+
+#: includes/class-loyaltydog-admin.php:334
+msgid "Earn Points Conversion Rate"
+msgstr ""
+
+#: includes/class-loyaltydog-admin.php:335
+msgid "Set the number of points awarded based on the product price."
+msgstr ""
+
+#: includes/class-loyaltydog-admin.php:343
+msgid "Earn Points Rounding Mode"
+msgstr ""
+
+#: includes/class-loyaltydog-admin.php:344
+msgid "Set how points should be rounded."
+msgstr ""
+
+#: includes/class-loyaltydog-admin.php:348
+msgid "Round to nearest integer"
+msgstr ""
+
+#: includes/class-loyaltydog-admin.php:349
+msgid "Always round down"
+msgstr ""
+
+#: includes/class-loyaltydog-admin.php:350
+msgid "Always round up"
+msgstr ""
+
+#: includes/class-loyaltydog-admin.php:358
+msgid "Offer Messages"
+msgstr ""
+
+#: includes/class-loyaltydog-admin.php:359
+#, php-format
+msgid ""
+"Adjust the message by using %1$s{friendlyNameToBeAdded}%2$s, "
+"%1$s{friendlyName}%2$s, %1$s{name}%2$s, %1$s{value}%2$s, %1$s{currency}%2$s "
+"to represent the redeemed / available offer."
+msgstr ""
+
+#: includes/class-loyaltydog-admin.php:366
+msgid "Available Offer Message"
+msgstr ""
+
+#: includes/class-loyaltydog-admin.php:367
+msgid ""
+"Add an optional message when user have a active Loyalty offer. Limited HTML "
+"is allowed. Leave blank to disable."
+msgstr ""
+
+#: includes/class-loyaltydog-admin.php:370
+#: includes/class-loyaltydog-cart-checkout.php:225
+msgid ""
+"<strong>Active Loyalty Offer:</strong> {friendlyNameToBeAdded}.<br />You can "
+"add some products to redeem this offer."
+msgstr ""
+
+#: includes/class-loyaltydog-admin.php:379
+msgid "Redeem Offer Message"
+msgstr ""
+
+#: includes/class-loyaltydog-admin.php:380
+msgid ""
+"Displayed on the cart and checkout page when cart is not empty and user have "
+"active offer. Limited HTML is allowed."
+msgstr ""
+
+#: includes/class-loyaltydog-admin.php:383
+#: includes/class-loyaltydog-cart-checkout.php:254
+msgid "<strong>Loyalty Reward:</strong> {friendlyNameToBeAdded}"
+msgstr ""
+
+#: includes/class-loyaltydog-admin.php:393
+msgid "Points Earned for Actions"
+msgstr ""
+
+#: includes/class-loyaltydog-admin.php:394
+msgid ""
+"Customers can also earn points for actions like creating an account or "
+"writing a product review. You can enter the amount of points the customer "
+"will earn for each action in this section."
+msgstr ""
+
+#: includes/class-loyaltydog-admin.php:441
+#, php-format
+msgid "%s is not a valid url."
+msgstr ""
+
+#: includes/class-loyaltydog-admin.php:447
+#, php-format
+msgid "%s is required."
+msgstr ""
+
+#: includes/class-loyaltydog-admin.php:511
+msgid "Points"
+msgstr ""
+
+#: includes/class-loyaltydog-admin.php:543
+#, php-format
+msgid "%s is invalid."
+msgstr ""
+
+#: includes/class-loyaltydog-cart-checkout.php:100
+msgid "Loyalty Reward"
+msgstr ""
+
+#: includes/class-loyaltydog-cart-checkout.php:264
+msgid "REDEEM"
+msgstr ""
+
+#: includes/class-loyaltydog-discount.php:109
+msgid "Redeemed Successfully"
+msgstr ""
+
+#: includes/class-loyaltydog-welcome.php:51
+#: includes/class-loyaltydog-welcome.php:52
+#, php-format
+msgid "Welcome to %1$s %2$s"
+msgstr ""
+
+#: includes/class-loyaltydog.php:201 includes/class-loyaltydog.php:209
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: includes/lib/class-loyaltydog-api.php:219
+msgid "{name} (FREE)"
+msgstr ""
+
+#: includes/lib/class-loyaltydog-api.php:221
+msgid "{name} ({value}{currency})"
+msgstr ""
+
+#: includes/lib/class-loyaltydog-api.php:222
+msgid "{name} (-{value}{currency})"
+msgstr ""
+
+#: includes/views/html-missing-dependencies.php:24
+msgid "depends on the last version of WooCommerce to work!"
+msgstr ""
+
+#: includes/views/html-missing-dependencies.php:31
+msgid "Active WooCommerce"
+msgstr ""
+
+#: includes/views/html-missing-dependencies.php:44
+msgid "Install WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://loyalty.dog/ecommerce-support-wordpress-plugin/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"LoyaltyDog - Digital Mobile Loyalty Program for On-Premise and Online "
+"Customers"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "loyaltydog <developer@loyalty.dog>"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://loyalty.dog"
+msgstr ""
